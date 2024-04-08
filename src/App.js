@@ -53,6 +53,8 @@ function App() {
     addItem(newItem)
     e.preventDefault()
     console.log('submitted');
+    setNewItem('');
+  
   }
   return (
     <div >
